@@ -2,7 +2,7 @@ name: .Build and Test
 
 on:
   push:
-    branches: [ "feature", "develop" ]
+    branches: [ "main", "feature", "develop" ]
 
 jobs:
   build_test:
