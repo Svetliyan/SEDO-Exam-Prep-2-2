@@ -2,10 +2,10 @@ name: .Build and Test
 
 on:
   push:
-    branches: [ "develop", "feature" ]
+    branches: [ "feature", "develop" ]
 
 jobs:
-  build:
+  build_test:
 
     runs-on: ubuntu-latest
 
