@@ -2,7 +2,7 @@ name: .Build and Test
 
 on:
   push:
-    branches: [ "main", "feature", "develop" ]
+    branches: [ "feature", "develop" ]
 
 jobs:
   build_test:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout the repo
+    - name: Checkout the repository
       uses: actions/checkout@v4
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
